@@ -15,3 +15,14 @@ max_latitude = parsed_data['bbox'][4]
 max_depth = parsed_data['bbox'][5]
 
 # to be continued
+
+
+# (self.data_collection_time, datetime.fromtimestamp(int(self.data_collection_time)).strftime('%Y-%m-%d %H:%M:%S'))
+
+revision_status = parsed_data['metadata']['status']
+event_count = parsed_data['metadata']['count']
+stream_title = parsed_data['metadata']['title']
+url = parsed_data['metadata']['url']
+time_generated = parsed_data['metadata']['generated']
+api_version = parsed_data['metadata']['api']
+
