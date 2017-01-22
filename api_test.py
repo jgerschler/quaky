@@ -1,3 +1,4 @@
+# A wrapper module for the USGS Earthquake API. Jared J. Gerschler (c) 2017
 import json
 
 data = """{"type":"FeatureCollection","metadata":{"generated":1485032187000,"url":"http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson","title":"USGS All Earthquakes, Past Hour","status":200,"api":"1.5.4","count":4},"features":[{"type":"Feature","properties":{"mag":1.29,"place":"10km S of Idyllwild, CA","time":1485030412340,"updated":1485030630866,"tz":-480,"url":"http://earthquake.usgs.gov/earthquakes/eventpage/ci37572167","detail":"http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci37572167.geojson","felt":null,"cdi":null,"mmi":null,"alert":null,"status":"automatic","tsunami":0,"sig":26,"net":"ci","code":"37572167","ids":",ci37572167,","sources":",ci,","types":",geoserve,nearby-cities,origin,phase-data,","nst":40,"dmin":0.06121,"rms":0.15,"gap":52,"magType":"ml","type":"earthquake","title":"M 1.3 - 10km S of Idyllwild, CA"},"geometry":{"type":"Point","coordinates":[-116.7081667,33.65,14.36]},"id":"ci37572167"},
@@ -37,13 +38,16 @@ event_depth = parsed_data['features'][0]['geometry']['coordinates'][2]
 event_id = parsed_data['features'][0]['id']
 
 parsed_data['features'][0]['properties']['rms']
-parsed_data['features'][0]['properties']['code']
-parsed_data['features'][0]['properties']['cdi']
+id_code = parsed_data['features'][0]['properties']['code']
+max_reported_intensity = parsed_data['features'][0]['properties']['cdi']
 parsed_data['features'][0]['properties']['sources']
 parsed_data['features'][0]['properties']['nst']
 parsed_data['features'][0]['properties']['tz']
 parsed_data['features'][0]['properties']['title']
-parsed_data['features'][0]['properties']['magType']
+magnitude_methods = {'Duration':('MD','Md','md'),'Local':('ML','Ml','ml'),'Short-period surface wave':('mb_Lg','mb_lg','MLg'),
+                     'Short-period body wave':('mb'),'Twenty-second surface wave':('Ms','Ms_20'),
+                     'Moment':('Mw','mw','Mwb','mwb','Mwc','mwc','Mwr','mwr','Mww','mww','Mi','Mwp','mwp'),'Energy':('Me')}
+magnitude_method = parsed_data['features'][0]['properties']['magType']
 parsed_data['features'][0]['properties']['detail']
 parsed_data['features'][0]['properties']['sig']
 parsed_data['features'][0]['properties']['net']
@@ -53,7 +57,7 @@ parsed_data['features'][0]['properties']['updated']
 parsed_data['features'][0]['properties']['felt']
 parsed_data['features'][0]['properties']['alert']
 parsed_data['features'][0]['properties']['dmin']
-parsed_data['features'][0]['properties']['mag']
+event_magnitude = parsed_data['features'][0]['properties']['mag']
 parsed_data['features'][0]['properties']['gap']
 parsed_data['features'][0]['properties']['types']
 parsed_data['features'][0]['properties']['url']
