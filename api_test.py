@@ -26,3 +26,7 @@ url = parsed_data['metadata']['url']
 time_generated = parsed_data['metadata']['generated']
 api_version = parsed_data['metadata']['api']
 
+geometry_type = parsed_data['features'][0]['geometry']['type']
+event_latitude = parsed_data['features'][0]['geometry']['coordinates'][0]
+event_longitude = parsed_data['features'][0]['geometry']['coordinates'][1]
+event_depth = parsed_data['features'][0]['geometry']['coordinates'][2]
