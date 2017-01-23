@@ -37,13 +37,15 @@ event_depth = parsed_data['features'][0]['geometry']['coordinates'][2]
 
 event_id = parsed_data['features'][0]['id']
 
-parsed_data['features'][0]['properties']['rms']
+rms_travel_time_residual = parsed_data['features'][0]['properties']['rms']
 id_code = parsed_data['features'][0]['properties']['code']
 max_reported_intensity = parsed_data['features'][0]['properties']['cdi']
-parsed_data['features'][0]['properties']['sources']
-parsed_data['features'][0]['properties']['nst']
-parsed_data['features'][0]['properties']['tz']
-parsed_data['features'][0]['properties']['title']
+event_sources = parsed_data['features'][0]['properties']['sources']
+network_contributors = {'ak':'','at':'','ci':'','hv':'','ld':'','mb':'','nc':'','nm':'',
+                        'nn':'','pr':'','pt':'','se':'','us':'','uu':'','uw':''}
+num_seismic_stations = parsed_data['features'][0]['properties']['nst']
+utc_offset = parsed_data['features'][0]['properties']['tz']
+event_summary = parsed_data['features'][0]['properties']['title']
 magnitude_methods = {'Duration':('MD','Md','md'),'Local':('ML','Ml','ml'),'Short-period surface wave':('mb_Lg','mb_lg','MLg'),
                      'Short-period body wave':('mb'),'Twenty-second surface wave':('Ms','Ms_20'),
                      'Moment':('Mw','mw','Mwb','mwb','Mwc','mwc','Mwr','mwr','Mww','mww','Mi','Mwp','mwp'),'Energy':('Me')}
