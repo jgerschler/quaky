@@ -60,12 +60,12 @@ dyfi_index = parsed_data['features'][0]['properties']['felt']# range 40 - 843
 pager_alert = parsed_data['features'][0]['properties']['alert']# green orange red yellow PAGER alert
 dist_to_nearest_station = parsed_data['features'][0]['properties']['dmin']# degrees; 111.2 km
 event_magnitude = parsed_data['features'][0]['properties']['mag']
-parsed_data['features'][0]['properties']['gap']
+azimuthal_gap = parsed_data['features'][0]['properties']['gap']
 event_products = parsed_data['features'][0]['properties']['types']
-parsed_data['features'][0]['properties']['url']
-parsed_data['features'][0]['properties']['ids']
-parsed_data['features'][0]['properties']['tsunami']
-parsed_data['features'][0]['properties']['place']
-parsed_data['features'][0]['properties']['time']
-parsed_data['features'][0]['properties']['mmi']
+event_url = parsed_data['features'][0]['properties']['url']
+associated_ids = parsed_data['features'][0]['properties']['ids']
+oaceanic_event = parsed_data['features'][0]['properties']['tsunami']
+event_place = parsed_data['features'][0]['properties']['place']
+event_time = parsed_data['features'][0]['properties']['time']
+instrumental_intensity = parsed_data['features'][0]['properties']['mmi']
 
