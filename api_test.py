@@ -50,18 +50,18 @@ magnitude_methods = {'Duration':('MD','Md','md'),'Local':('ML','Ml','ml'),'Short
                      'Short-period body wave':('mb'),'Twenty-second surface wave':('Ms','Ms_20'),
                      'Moment':('Mw','mw','Mwb','mwb','Mwc','mwc','Mwr','mwr','Mww','mww','Mi','Mwp','mwp'),'Energy':('Me')}
 magnitude_method = parsed_data['features'][0]['properties']['magType']
-parsed_data['features'][0]['properties']['detail']
-parsed_data['features'][0]['properties']['sig']
-parsed_data['features'][0]['properties']['net']
-parsed_data['features'][0]['properties']['type']
-parsed_data['features'][0]['properties']['status']
-parsed_data['features'][0]['properties']['updated']
-parsed_data['features'][0]['properties']['felt']
-parsed_data['features'][0]['properties']['alert']
-parsed_data['features'][0]['properties']['dmin']
+extra_info = parsed_data['features'][0]['properties']['detail']
+event_significance = parsed_data['features'][0]['properties']['sig']# 0 to 1000
+preferred_net = parsed_data['features'][0]['properties']['net']
+event_type = parsed_data['features'][0]['properties']['type']
+review_status = parsed_data['features'][0]['properties']['status']# automatic, reviewed or deleted
+most_recent_update = parsed_data['features'][0]['properties']['updated']
+dyfi_index = parsed_data['features'][0]['properties']['felt']# range 40 - 843
+pager_alert = parsed_data['features'][0]['properties']['alert']# green orange red yellow PAGER alert
+dist_to_nearest_station = parsed_data['features'][0]['properties']['dmin']# degrees; 111.2 km
 event_magnitude = parsed_data['features'][0]['properties']['mag']
 parsed_data['features'][0]['properties']['gap']
-parsed_data['features'][0]['properties']['types']
+event_products = parsed_data['features'][0]['properties']['types']
 parsed_data['features'][0]['properties']['url']
 parsed_data['features'][0]['properties']['ids']
 parsed_data['features'][0]['properties']['tsunami']
