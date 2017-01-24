@@ -13,73 +13,69 @@ data = """{"type":"FeatureCollection","metadata":{"generated":1485032187000,"url
 
 class Quaky(object):
 
-    def __init__(self):
-        pass
-    def connect(self, data):
+    def __init__(self, data):
+        self.data = data
+    def connect(self):
         self.parsed_data = json.loads(data)
         # bbox
-        min_longitude = self.parsed_data['bbox'][0]
-        min_latitude = self.parsed_data['bbox'][1]
-        min_depth = self.parsed_data['bbox'][2]
-        max_longitude = self.parsed_data['bbox'][3]
-        max_latitude = self.parsed_data['bbox'][4]
-        max_depth = self.parsed_data['bbox'][5]
+        self.min_longitude = self.parsed_data['bbox'][0]
+        self.min_latitude = self.parsed_data['bbox'][1]
+        self.min_depth = self.parsed_data['bbox'][2]
+        self.max_longitude = self.parsed_data['bbox'][3]
+        self.max_latitude = self.parsed_data['bbox'][4]
+        self.max_depth = self.parsed_data['bbox'][5]
         # metadata
-        revision_status = self.parsed_data['metadata']['status']
-        stream_title = self.parsed_data['metadata']['title']
-        url = self.parsed_data['metadata']['url']
-        time_generated = self.parsed_data['metadata']['generated']
-        api_version = self.parsed_data['metadata']['api']
-
+        self.revision_status = self.parsed_data['metadata']['status']
+        self.stream_title = self.parsed_data['metadata']['title']
+        self.url = self.parsed_data['metadata']['url']
+        self.time_generated = self.parsed_data['metadata']['generated']
+        self.api_version = self.parsed_data['metadata']['api']
         self.event_count = self.parsed_data['metadata']['count']        
-    
-    def assign_vars(self):# temporary!    
-        geometry_type = self.parsed_data['features'][0]['geometry']['type']
-        event_latitude = self.parsed_data['features'][0]['geometry']['coordinates'][0]
-        event_longitude = self.parsed_data['features'][0]['geometry']['coordinates'][1]
-        event_depth = self.parsed_data['features'][0]['geometry']['coordinates'][2]
-        event_id = self.parsed_data['features'][0]['id']
-        rms_travel_time_residual = self.parsed_data['features'][0]['properties']['rms']
-        id_code = self.parsed_data['features'][0]['properties']['code']
-        max_reported_intensity = self.parsed_data['features'][0]['properties']['cdi']
-        event_sources = self.parsed_data['features'][0]['properties']['sources']
-        network_contributors = {'ak':'','at':'','ci':'','hv':'','ld':'','mb':'','nc':'','nm':'',
+        # features
+        self.geometry_type = [self.parsed_data['features'][i]['geometry']['type'] for i in range(self.event_count)]
+        self.event_latitude = [self.parsed_data['features'][i]['geometry']['coordinates'][0] for i in range(self.event_count)]
+        self.event_longitude = [self.parsed_data['features'][i]['geometry']['coordinates'][1] for i in range(self.event_count)]
+        self.event_depth = [self.parsed_data['features'][i]['geometry']['coordinates'][2] for i in range(self.event_count)]
+        self.event_id = [self.parsed_data['features'][i]['id'] for i in range(self.event_count)]
+        self.rms_travel_time_residual = [self.parsed_data['features'][i]['properties']['rms'] for i in range(self.event_count)]
+        self.id_code = [self.parsed_data['features'][i]['properties']['code'] for i in range(self.event_count)]
+        self.max_reported_intensity = [self.parsed_data['features'][i]['properties']['cdi'] for i in range(self.event_count)]
+        self.event_sources = [self.parsed_data['features'][i]['properties']['sources'] for i in range(self.event_count)]
+        self.network_contributors = {'ak':'','at':'','ci':'','hv':'','ld':'','mb':'','nc':'','nm':'',
                                 'nn':'','pr':'','pt':'','se':'','us':'','uu':'','uw':''}
-        num_seismic_stations = self.parsed_data['features'][0]['properties']['nst']
-        utc_offset = self.parsed_data['features'][0]['properties']['tz']
-        event_summary = self.parsed_data['features'][0]['properties']['title']
-        magnitude_methods = {'Duration':('MD','Md','md'),'Local':('ML','Ml','ml'),'Short-period surface wave':('mb_Lg','mb_lg','MLg'),
-                             'Short-period body wave':('mb'),'Twenty-second surface wave':('Ms','Ms_20'),
+        self.num_seismic_stations = [self.parsed_data['features'][i]['properties']['nst'] for i in range(self.event_count)]
+        self.utc_offset = [self.parsed_data['features'][i]['properties']['tz'] for i in range(self.event_count)]
+        self.event_summary = [self.parsed_data['features'][i]['properties']['title'] for i in range(self.event_count)]
+        self.magnitude_methods = {'Duration':('MD','Md','md'),'Local':('ML','Ml','ml'),'Short-period surface wave':('mb_Lg','mb_lg','MLg'),
+                             'Short-period body wave':('mb'),'Twenty-second surface wave':('Ms','Ms_2i'),
                              'Moment':('Mw','mw','Mwb','mwb','Mwc','mwc','Mwr','mwr','Mww','mww','Mi','Mwp','mwp'),'Energy':('Me')}
-        magnitude_method = self.parsed_data['features'][0]['properties']['magType']
-        extra_info = self.parsed_data['features'][0]['properties']['detail']
-        event_significance = self.parsed_data['features'][0]['properties']['sig']# 0 to 1000
-        preferred_net = self.parsed_data['features'][0]['properties']['net']
-        event_type = self.parsed_data['features'][0]['properties']['type']
-        review_status = self.parsed_data['features'][0]['properties']['status']# automatic, reviewed or deleted
-        most_recent_update = self.parsed_data['features'][0]['properties']['updated']
-        dyfi_index = self.parsed_data['features'][0]['properties']['felt']# range 40 - 843
-        pager_alert = self.parsed_data['features'][0]['properties']['alert']# green orange red yellow PAGER alert
-        dist_to_nearest_station = self.parsed_data['features'][0]['properties']['dmin']# degrees; 111.2 km
-        event_magnitude = self.parsed_data['features'][0]['properties']['mag']
-        azimuthal_gap = self.parsed_data['features'][0]['properties']['gap']
-        event_products = self.parsed_data['features'][0]['properties']['types']
-        event_url = self.parsed_data['features'][0]['properties']['url']
-        associated_ids = self.parsed_data['features'][0]['properties']['ids']
-        oaceanic_event = self.parsed_data['features'][0]['properties']['tsunami']
-        event_place = self.parsed_data['features'][0]['properties']['place']
-        event_time = self.parsed_data['features'][0]['properties']['time']
-        instrumental_intensity = self.parsed_data['features'][0]['properties']['mmi']
+        self.magnitude_method = [self.parsed_data['features'][i]['properties']['magType'] for i in range(self.event_count)]
+        self.extra_info = [self.parsed_data['features'][i]['properties']['detail'] for i in range(self.event_count)]
+        self.event_significance = [self.parsed_data['features'][i]['properties']['sig'] for i in range(self.event_count)]
+        self.preferred_net = [self.parsed_data['features'][i]['properties']['net'] for i in range(self.event_count)]
+        self.event_type = [self.parsed_data['features'][i]['properties']['type'] for i in range(self.event_count)]
+        self.review_status = [self.parsed_data['features'][i]['properties']['status'] for i in range(self.event_count)]
+        self.most_recent_update = [self.parsed_data['features'][i]['properties']['updated'] for i in range(self.event_count)]
+        self.dyfi_index = [self.parsed_data['features'][i]['properties']['felt'] for i in range(self.event_count)]
+        self.pager_alert = [self.parsed_data['features'][i]['properties']['alert'] for i in range(self.event_count)]
+        self.dist_to_nearest_station = [self.parsed_data['features'][i]['properties']['dmin'] for i in range(self.event_count)]
+        self.event_magnitude = [self.parsed_data['features'][i]['properties']['mag'] for i in range(self.event_count)]
+        self.azimuthal_gap = [self.parsed_data['features'][i]['properties']['gap'] for i in range(self.event_count)]
+        self.event_products = [self.parsed_data['features'][i]['properties']['types'] for i in range(self.event_count)]
+        self.event_url = [self.parsed_data['features'][i]['properties']['url'] for i in range(self.event_count)]
+        self.associated_ids = [self.parsed_data['features'][i]['properties']['ids'] for i in range(self.event_count)]
+        self.oaceanic_event = [self.parsed_data['features'][i]['properties']['tsunami'] for i in range(self.event_count)]
+        self.event_place = [self.parsed_data['features'][i]['properties']['place'] for i in range(self.event_count)]
+        self.event_time = [self.parsed_data['features'][i]['properties']['time'] for i in range(self.event_count)]
+        self.instrumental_intensity = [self.parsed_data['features'][i]['properties']['mmi'] for i in range(self.event_count)]
     
     def output_csv(self, filename):
-        datafile = file.open(filename, 'w')
+        datafile = open(filename, 'w')
         datafile.write("id,time,place,depth,intensity,dyfi\n")
-        for entry in range(self.event_count):
-            
-
-        
-
-
+        for i in range(self.event_count):
+            datafile.write("{0}{1}{2}{3}{4}{5}\n".format(self.event_id[i], self.event_time[i], self.event_place[i],
+                                                         self.event_depth[i], self.max_reported_intensity[i], self.dyfi_index[i]))
+        datafile.close()
 
 # to be continued!
 
