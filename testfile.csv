@@ -1,5 +1,356 @@
 id,time,place,depth,intensity,dyfi
-ci37572167148503041234010km S of Idyllwild, CA14.36NoneNone
-us10007une148502903735037km NW of Taron, Papua New Guinea48.24NoneNone
-ak15118874148502887412234km WNW of Valdez, Alaska2NoneNone
-ci37572159148502881253010km SE of Gorman, CA10.9NoneNone
+us10007v34,1485213371470,30km SE of Tanaga Volcano, Alaska,4.76,None,None
+us10007v1e,1485204496040,98km WNW of Sinabang, Indonesia,22.67,None,None
+us10007v0x,1485194687620,284km SE of Lambasa, Fiji,581.47,None,None
+us10007uz7,1485183156080,108km S of Severo-Kuril'sk, Russia,40.52,None,None
+us10007uz0,1485172992130,72km SW of Kirakira, Solomon Islands,27.02,None,None
+us10007uyq,1485167294020,67km WSW of Attu Station, Alaska,29.52,None,None
+us10007uys,1485166635160,Northern Mid-Atlantic Ridge,10,None,None
+us10007uy3,1485155620510,South of Africa,10,None,None
+us10007uxt,1485151936220,160km SSW of Simpang, Indonesia,32.63,None,None
+us10007ux5,1485135654780,17km SSW of Quvasoy, Uzbekistan,43.33,2.2,1
+us10007uvw,1485118815380,42km ENE of Opotiki, New Zealand,54.14,4.6,3
+us10007uv7,1485105281100,Southeast of Easter Island,10,None,None
+us10007uu1,1485092830640,West of Macquarie Island,8.66,None,None
+us10007uu0,1485091920090,159km SSE of Taron, Papua New Guinea,26.37,None,None
+us10007utc,1485082631320,210km NW of Tobelo, Indonesia,31.48,None,None
+us10007usl,1485071063900,West Chile Rise,10,None,None
+us10007usi,1485067661800,56km SW of Fereydunshahr, Iran,34.51,None,None
+us10007urt,1485063461080,107km WNW of Arawa, Papua New Guinea,148.31,2,1
+us10007upq,1485060292970,216km WSW of Panguna, Papua New Guinea,10,None,None
+us10007uph,1485059423140,41km WNW of Panguna, Papua New Guinea,136,9.1,23
+us10007upd,1485053437340,17km SW of Zonda, Argentina,109.42,2,1
+us10007une,1485029037350,37km NW of Taron, Papua New Guinea,48.24,None,None
+us10007und,1485028350870,90km ENE of Hihifo, Tonga,43.2,None,None
+us10007un7,1485022267430,95km E of Mutsu, Japan,56.81,2.7,2
+us10007un8,1485021212040,216km SSE of L'Esperance Rock, New Zealand,10,None,None
+us10007umj,1485011242280,154km SSW of San Pedro de Atacama, Chile,118.94,None,None
+us10007um8,1484999672980,77km ENE of Hachinohe, Japan,39.15,3.6,8
+us10007uln,1484991038680,82km S of San Martin, Argentina,22.43,4.8,9
+us10007ul9,1484980249500,224km NNW of Saumlaki, Indonesia,116.82,None,None
+us10007ul1,1484975793540,120km N of Tobelo, Indonesia,57.64,None,None
+us10007ukd,1484963552130,109km S of Kokopo, Papua New Guinea,35,None,None
+us10007uj7,1484953113500,17km WNW of Kazerun, Iran,10,3.8,1
+us10007uep,1484933769030,146km SSW of Hihifo, Tonga,112.86,None,None
+us10007ubp,1484921186120,138km SSW of Sigave, Wallis and Futuna,413.91,None,None
+us10007ubb,1484906048260,54km WSW of Shache, China,50.81,None,None
+us10007u9i,1484884062420,47km N of Bela, Pakistan,10,None,None
+us10007u9g,1484883838750,47km E of Aras-asan, Philippines,54.02,1,1
+us10007u9d,1484883173050,West Chile Rise,10,None,None
+us10007u91,1484878805210,66km W of Kirakira, Solomon Islands,35.67,None,None
+us10007u7n,1484867060310,67km W of Kirakira, Solomon Islands,29.89,6.1,6
+us10007u7m,1484866495960,39km NNW of Cempa, Indonesia,176.02,None,None
+us10007u69,1484855975400,79km SW of Sabtang, Philippines,10,None,None
+us10007u35,1484827311480,42km SW of Ovalle, Chile,35.23,2,2
+us10007u36,1484827264970,11km WNW of Ciudad Bolivar, Colombia,66.24,4.8,23
+us10007u2v,1484820957980,Western Indian-Antarctic Ridge,10,None,None
+us10007u1j,1484797343970,79km WSW of Hengchun, Taiwan,38.12,None,None
+us10007u0w,1484781478000,205km SE of Sarangani, Philippines,10,None,None
+us10007u0v,1484776102350,232km SW of Djado, Niger,10,None,None
+us10007tz3,1484754160860,251km ENE of Port Blair, India,27.85,None,None
+us10007tyz,1484752572290,8km NW of Amatrice, Italy,10,1,1
+us10007txx,1484747496400,Northern Mid-Atlantic Ridge,10,None,None
+us10007txl,1484746417890,4km N of Montereale, Italy,6.94,4.1,22
+us10007txm,1484746302770,66km WSW of Puerto Quellon, Chile,17.98,None,None
+us10007twz,1484738297630,29km WNW of Amatignak Island, Alaska,62.03,None,None
+us10007tww,1484737659330,2km SSW of Arquata del Tronto, Italy,10,2,2
+us10007twu,1484736704410,20km WSW of Tugu Hilir, Indonesia,68.97,None,None
+us10007twn,1484735125750,5km WSW of Amatrice, Italy,10,4.8,22
+us10007twk,1484735056260,10km NW of Montereale, Italy,10,None,None
+us10007tx5,1484734597690,0km ENE of Montereale, Italy,10,None,None
+us10007tx3,1484734532980,4km SSE of Amatrice, Italy,10,3.1,1
+us10007twj,1484734451560,5km WSW of Amatrice, Italy,10,6,115
+us10007twc,1484731541530,7km WNW of Amatrice, Italy,10,4.9,57
+us10007u0t,1484727567180,5km ENE of Funaishikawa, Japan,60.38,4.6,35
+us10007tvh,1484719152630,23km NE of Hihifo, Tonga,75.62,None,None
+us10007tup,1484704947310,Southwest of Africa,10,None,None
+us10007trt,1484677692950,65km S of Severo-Kuril'sk, Russia,77.34,None,None
+us10007tps,1484653726400,85km W of Banda Aceh, Indonesia,35,2,2
+us10007tpm,1484649674950,15km W of Kazerun, Iran,10,4.5,2
+us10007tmm,1484644922520,72km ESE of Visokoi Island, South Georgia and the South Sandwich Islands,91.68,None,None
+us10007tmh,1484644081950,43km S of Guisa, Cuba,10,7.1,12
+us10007tm6,1484639180450,207km NW of Farallon de Pajaros, Northern Mariana Islands,121.76,None,None
+us10007tl5,1484615868200,115km WNW of Sola, Vanuatu,44.83,None,None
+us10007tjy,1484599658290,122km WNW of Sola, Vanuatu,10,None,None
+us10007tjn,1484593640890,97km ESE of Esso, Russia,198.42,None,None
+us10007tiy,1484579196730,151km WNW of Saumlaki, Indonesia,10,None,None
+us10007tiz,1484578924890,176km SW of Hihifo, Tonga,248.98,None,None
+us10007tit,1484576509040,65km NNE of Miyako, Japan,51.99,None,None
+us10007tii,1484570532570,18km NNE of Kabanjahe, Indonesia,10,5.5,71
+us10007ti6,1484554858500,South of Africa,10,None,None
+us10007tg9,1484544724900,16km SSW of Ogotua, Indonesia,10,None,None
+us10007tfs,1484536628720,206km NW of Farallon de Pajaros, Northern Mariana Islands,313.75,None,None
+us10007tfl,1484535007250,66km ESE of Nikolski, Alaska,42.57,None,None
+us10007tfe,1484529398990,128km W of Sola, Vanuatu,10,2,1
+us10007tfd,1484527309190,90km S of Raoul Island, New Zealand,10,None,None
+us10007tea,1484493992670,110km W of Panguna, Papua New Guinea,65.25,4.2,1
+us10007te1,1484489579980,8km ESE of Casillas, Guatemala,209.89,None,None
+us10007tdw,1484486290230,30km ESE of Gharm, Tajikistan,6.4,None,None
+us10007tdb,1484473490670,55km NNW of Bahia de Caraquez, Ecuador,35.57,2,1
+us10007tcy,1484470105280,31km ESE of Calama, Chile,107.96,None,None
+us10007tbj,1484435410250,114km N of Lae, Papua New Guinea,146.41,None,None
+us10007tba,1484431211600,128km E of Pangai, Tonga,35,None,None
+us10007tb5,1484428771900,136km WSW of Nadi, Fiji,27.06,None,None
+us10007tc7,1484420209670,124km SW of Nadi, Fiji,36.87,None,None
+us10007tau,1484419412760,74km SW of Kirakira, Solomon Islands,36.59,None,None
+us10007tas,1484418343070,169km SW of Nadi, Fiji,4.58,None,None
+us10007tad,1484407179170,125km S of Oyama, Japan,281.21,None,None
+us10007t9u,1484394078850,119km WNW of Kota Ternate, Indonesia,22.82,None,None
+us10007t9m,1484390091160,106km NNE of Hihifo, Tonga,10,3.1,4
+us10007t9e,1484386305090,153km SW of Nadi, Fiji,10,None,None
+us10007t93,1484376063180,56km ENE of Taniwel, Indonesia,35.64,None,None
+us10007t8x,1484374301630,152km SW of Nadi, Fiji,10,None,None
+us10007t8p,1484364872930,8km NNE of Gueiria, Venezuela,86.91,None,None
+us10007t71,1484348810320,171km NW of Tobelo, Indonesia,60.35,None,None
+us10007t3y,1484325565560,106km SE of Modayag, Indonesia,46.01,None,None
+us10007t3c,1484313288660,20km NE of Bristol Island, South Sandwich Islands,160.7,None,None
+us10007t3b,1484310519820,15km W of Nago, Japan,52.85,3.9,28
+us10007t19,1484289778760,52km NW of Finschhafen, Papua New Guinea,65.58,None,None
+us10007t18,1484287820780,280km NNE of Fais, Micronesia,10,None,None
+us10007t12,1484286368690,76km NNE of Adak, Alaska,176.54,None,None
+us10007t0y,1484285518860,25km S of Kirakira, Solomon Islands,33.95,None,None
+us10007t0z,1484285452060,Chagos Archipelago region,10,None,None
+us10007t0n,1484277929060,10km SSW of Hasaki, Japan,32.27,3.1,32
+us10007t0e,1484270453690,43km E of Namie, Japan,13.76,None,None
+us10007sxd,1484249037000,35km NW of Ovalle, Chile,23.8,2,2
+us10007swd,1484240698630,107km S of Vrangel', Russia,481.83,None,None
+us10007svx,1484237192180,59km WSW of Mutis, Colombia,6.02,None,None
+us10007sv2,1484227748560,116km WSW of Kuripan, Indonesia,38.19,None,None
+us10007suf,1484216818630,12km WNW of Xochistlahuaca, Mexico,10,3.4,9
+us10007ssn,1484211606410,43km E of Putre, Chile,133.55,2,1
+us10007srd,1484191368000,20km SW of La Gomera, Guatemala,56.05,4.3,111
+us10007sr9,1484181390550,5km SSW of Tsukuba, Japan,79.78,2.7,7
+us10007snb,1484172419150,42km SSW of Betafo, Madagascar,8.7,6.1,41
+us10007sn1,1484171897910,86km SSE of Tocopilla, Chile,69.06,6.1,25
+us10007smq,1484170869650,286km NNE of Fais, Micronesia,43,None,None
+us10007sll,1484165167690,66km ENE of Ndoi Island, Fiji,529.91,None,None
+us10007sl6,1484163766360,57km S of Tanaga Volcano, Alaska,32.2,None,None
+us10007sl2,1484159740800,78km WNW of Kandrian, Papua New Guinea,129.87,None,None
+us10007skl,1484151790030,279km NNE of Fais, Micronesia,56.77,None,None
+us10007skd,1484149829670,139km SW of Palaiochora, Greece,19.13,None,None
+us10007sk0,1484145519070,279km NNE of Fais, Micronesia,10,None,None
+us10007sjy,1484144884880,108km NW of Turkmenbasy, Turkmenistan,38.17,None,None
+us10007sjv,1484144459950,280km NNE of Fais, Micronesia,10,None,None
+us10007sit,1484115893040,16km SSE of Calolbon, Philippines,67.05,4.1,6
+us10007si6,1484102958570,112km W of Panguna, Papua New Guinea,58.51,None,None
+us10007si5,1484102190590,2km ESE of Muisne, Ecuador,10,6.8,3
+us10007shp,1484093961930,34km SE of Blenheim, New Zealand,19.49,4.1,9
+us10007sdm,1484068253980,22km WSW of Labuhankananga, Indonesia,24.84,None,None
+us10007sdg,1484065315560,229km WNW of Chichi-shima, Japan,462.02,None,None
+us10007sd4,1484062035090,104km WNW of Kirakira, Solomon Islands,28.47,3.4,6
+us10007sd0,1484060389000,39km NNE of Illapel, Chile,93.1,2.9,2
+us10007scy,1484057968010,210km SSE of Atka, Alaska,21.62,None,None
+us10007scl,1484052294880,2km WSW of Rion, Greece,23.48,None,None
+us10007sb5,1484042493810,110km WNW of Rota, Northern Mariana Islands,10,None,None
+us10007s9c,1484028827250,188km SSE of Tabiauan, Philippines,612.71,4.6,49
+us10007s8e,1484017292270,Western Indian-Antarctic Ridge,10,None,None
+us10007s5a,1483989603960,61km W of Nikolski, Alaska,88.27,None,None
+us10007s55,1483986042290,33km SSW of Kirakira, Solomon Islands,31.9,None,None
+us10007s51,1483984536740,74km ESE of Resolute, Canada,14.96,None,None
+us10007s4a,1483968764080,228km NNE of Tobelo, Indonesia,60.41,None,None
+us10007s45,1483965689850,118km NW of Tobelo, Indonesia,68.24,None,None
+us10007s3x,1483961318260,41km SSW of Pasarbaru, Indonesia,63.5,6,4
+us10007s3k,1483955597430,6km NNW of Rion, Greece,10,4.7,5
+us10007s3h,1483953617650,8km NNW of Callaguip, Philippines,45.1,4.1,3
+us10007s32,1483941550410,37km SSE of Shahrtuz, Tajikistan,26.53,None,None
+us10007s2n,1483931665360,139km WNW of Hihifo, Tonga,229.41,None,None
+us10007s2g,1483928020490,Kepulauan Barat Daya, Indonesia,133.1,None,None
+us10007s2c,1483923110450,Macquarie Island region,10,None,None
+us10007s2a,1483922435160,29km NNW of La Serena, Chile,43.76,1,1
+us10007s2b,1483922226500,164km SSW of Ndoi Island, Fiji,587.1,None,None
+us10007s20,1483919232530,86km ESE of Resolute, Canada,18.93,None,None
+us10007s15,1483907061820,264km ESE of Lambasa, Fiji,556.4,None,None
+us10007s0v,1483899958710,6km SSE of Santa Teresa, Nicaragua,118.68,None,None
+us10007rzw,1483887510850,88km NW of Antofagasta, Chile,20.91,None,None
+us10007s8c,1483885206380,Pacific-Antarctic Ridge,10,None,None
+us10007rzn,1483882286300,10km WSW of Jahanian Shah, Pakistan,10,3.8,8
+us10007rze,1483877764730,31km SE of San Dionisio Ocotepec, Mexico,62.94,3.8,6
+us10007rzc,1483875665470,123km NNE of Farallon de Pajaros, Northern Mariana Islands,38.46,None,None
+us10007rz3,1483867545230,Kepulauan Barat Daya, Indonesia,158.98,None,None
+us10007ryv,1483865528730,58km NW of Finschhafen, Papua New Guinea,66.97,4.6,9
+us10007ryr,1483861646310,208km SE of Sarangani, Philippines,35,None,None
+us10007ryd,1483849186550,North of Ascension Island,10,None,None
+us10007rxx,1483837482590,56km WNW of San Antonio de los Cobres, Argentina,181.07,2.2,1
+us10007rxs,1483835627720,88km WSW of Coquimbo, Chile,10.65,3.6,3
+us10007rxl,1483831187680,43km SSE of Shahrtuz, Tajikistan,15.3,None,None
+us10007rvw,1483805093790,92km SW of Contamana, Peru,42.09,3.1,1
+us10007rvi,1483795646040,35km SSW of Puerto San Jose, Guatemala,65.94,None,None
+us10007rv4,1483791924080,99km W of Tobelo, Indonesia,71.16,None,None
+us10007rue,1483780319670,17km N of Tambulatana, Indonesia,78.12,None,None
+us10007rua,1483778174790,29km SSE of Sary-Tash, Kyrgyzstan,35.84,None,None
+us10007ru6,1483777403360,20km ESE of Kaikoura, New Zealand,10.49,None,None
+us10007rtw,1483769801520,17km SW of Cuajinicuilapa, Mexico,46.02,1,1
+us10007rtd,1483764970460,35km N of Chilecito, Argentina,131.46,None,None
+us10007rt4,1483760288390,115km S of Biha, Indonesia,42.49,None,None
+us10007rsx,1483758834910,194km WSW of Port Hardy, Canada,10,2.5,6
+us10007rsq,1483756712270,87km SSE of Pondaguitan, Philippines,70.77,None,None
+us10007rrw,1483743333530,66km WSW of Caleta de Carquin, Peru,37.91,4.6,18
+us10007rqu,1483721542620,183km WSW of Port Hardy, Canada,10,2,1
+us10007rqs,1483721171650,44km ENE of Opotiki, New Zealand,58.41,3.8,4
+us10007rnp,1483717740330,186km WSW of Port Hardy, Canada,10,2.2,2
+us10007rn2,1483707569890,137km WNW of Pangai, Tonga,190.22,None,None
+us10007rmq,1483700612590,89km WSW of Sibolga, Indonesia,54.6,None,None
+us10007rmj,1483698824840,226km NNE of Tobelo, Indonesia,35,None,None
+us10007rmi,1483698300150,83km WSW of Sibolga, Indonesia,54.4,3.4,2
+us10007rmf,1483693470310,129km NE of Naze, Japan,10.21,None,None
+us10007rkj,1483684233100,82km NE of San Pedro de Atacama, Chile,142.17,3.1,6
+us10007rki,1483683355620,87km S of Sungaipenuh, Indonesia,91.9,None,None
+us10007rjn,1483670009320,53km SW of Jahrom, Iran,10,None,None
+us10007rj0,1483665124470,134km S of Taron, Papua New Guinea,10,None,None
+us10007ri8,1483658582440,186km SW of Nadi, Fiji,10,None,None
+us10007rgy,1483637951460,73km SE of Ofunato, Japan,30.8,None,None
+us10007rbh,1483623900510,234km SW of Nadi, Fiji,68.95,None,None
+us10007rb1,1483615054820,40km SSE of Blenheim, New Zealand,19.01,4.6,18
+us10007rax,1483612963800,83km ESE of Haebaru, Japan,10,3.1,2
+us10007rad,1483598675440,276km SSE of Tabiauan, Philippines,564.92,None,None
+us10007r9m,1483586633470,Southern Mid-Atlantic Ridge,10,None,None
+us10007r83,1483563827920,60km W of Kirakira, Solomon Islands,55.31,None,None
+us10007r5m,1483560233700,176km SW of Nadi, Fiji,10,None,None
+us10007py4,1483552400040,41km ENE of Iwaki, Japan,10,4.3,69
+us10007pxt,1483548309810,42km SSW of La Libertad, El Salvador,73.43,4,18
+us10007pxr,1483547043550,62km W of Kirakira, Solomon Islands,59.53,None,None
+us10007pxb,1483544639740,15km S of Iwaki, Japan,54.74,5.3,57
+us10007px0,1483542872740,41km SE of Kangding, China,10,None,None
+us10007ppa,1483540279120,220km SW of Nadi, Fiji,10,None,None
+us10007pp8,1483540087430,79km SSE of Mawlaik, Burma,121.9,None,None
+us10007pp5,1483539172310,104km NNW of Zhadong, China,10,None,None
+us10007pnw,1483536244760,42km SSW of Coquimbo, Chile,47.48,3.4,5
+us10007png,1483526269050,223km NW of Saumlaki, Indonesia,141.93,None,None
+us10007pm4,1483509524970,233km SW of Nadi, Fiji,10,None,None
+us10007plu,1483508169570,210km SW of Nadi, Fiji,10,1,1
+us10007plf,1483502480410,163km SW of Nadi, Fiji,10,None,None
+us10007pla,1483499451470,202km SW of Nadi, Fiji,10,None,None
+us10007pl1,1483497580960,South of Java, Indonesia,10,None,None
+us10007pl0,1483497184340,214km SW of Nadi, Fiji,10,None,None
+us10007pkn,1483491970110,126km W of Port-Vila, Vanuatu,15.33,3.1,2
+us10007pkm,1483491841340,41km WNW of Kuqa, China,24.3,None,None
+us10007pmb,1483489608900,227km SW of Nadi, Fiji,10,None,None
+us10007pkf,1483488582160,167km SW of Nadi, Fiji,10,None,None
+us10007pke,1483487765480,178km SW of Nadi, Fiji,10,None,None
+us10007pkb,1483487172340,185km SW of Nadi, Fiji,10,None,None
+us10007pka,1483486451610,174km SW of Nadi, Fiji,10,None,None
+us10007pk5,1483484631200,209km SW of Nadi, Fiji,10,None,None
+us10007pjt,1483483212060,196km SW of Nadi, Fiji,10,None,None
+us10007pjy,1483482826310,169km SW of Nadi, Fiji,10,None,None
+us10007pji,1483480538380,245km SW of Nadi, Fiji,10,2,1
+us10007pj6,1483480351410,221km SW of Nadi, Fiji,17.1,6.3,13
+us10007piy,1483478347760,70km WSW of Puerto Quellon, Chile,11.47,4.1,4
+us10007pif,1483471678780,South of the Fiji Islands,547.14,None,None
+us10007phv,1483469393630,35km SSE of Mawlaik, Burma,89.66,4.6,31
+us10007ph7,1483463233760,108km SW of Sigave, Wallis and Futuna,407.39,None,None
+us10007ph0,1483458548900,294km ENE of Dili, East Timor,145.09,None,None
+us10007pgz,1483458103410,84km NE of Ndoi Island, Fiji,574.53,None,None
+us10007pgt,1483457419000,98km N of Merredin, Australia,10,3.4,3
+us10007pgl,1483453185790,69km E of Karakenja, Tajikistan,50.56,None,None
+us10007pgj,1483452265660,59km S of Sinarharapan, Indonesia,63.62,None,None
+us10007pgc,1483450911660,47km NW of Iquique, Chile,35.1,4.4,12
+us10007pg5,1483445623020,99km SE of Ofunato, Japan,35,2.9,1
+us10007pfs,1483440576920,60km NNW of Popondetta, Papua New Guinea,57.37,None,None
+us10007pfk,1483434542640,19km NE of Ambasa, India,36.15,6.2,246
+us10007ucn,1483432880500,57km WSW of Kirakira, Solomon Islands,10,None,None
+us10007pbu,1483392260610,66km E of Mutsu, Japan,55.03,3.1,4
+us10007pbq,1483390945190,110km SSE of Sindangsari, Indonesia,38.14,2.2,1
+us10007pa7,1483375326780,Reykjanes Ridge,10.96,None,None
+us10007p9y,1483373459030,90km ESE of Kamaishi, Japan,36.73,None,None
+us10007p9w,1483373054500,Reykjanes Ridge,11.12,None,None
+us10007p95,1483366779570,13km E of Lakatoro, Vanuatu,46.97,None,None
+us10007p8t,1483365835700,26km NE of Sibolga, Indonesia,121.07,None,None
+us10007p7m,1483362842820,South of the Fiji Islands,555.12,None,None
+us10007p7n,1483362828920,40km E of Barranca, Peru,108.41,4.8,28
+us10007p7j,1483360903790,132km SSE of Isangel, Vanuatu,122.18,None,None
+us10007p6z,1483352117790,South of the Fiji Islands,561.06,None,None
+us10007p6p,1483342267600,28km W of Ust'-Barguzin, Russia,19.8,3.1,2
+us10007p6a,1483337954050,Kermadec Islands region,15.77,None,None
+us10007p5u,1483327297280,34km SSE of Kirakira, Solomon Islands,50.72,None,None
+us10007p5d,1483315986420,Southwest Indian Ridge,10,None,None
+us10007p52,1483311481660,169km W of Meulaboh, Indonesia,30.35,None,None
+us10007p51,1483310970130,60km W of Ile Hunter, New Caledonia,103.69,None,None
+us10007p3t,1483289646710,149km NW of Mae Ai, Thailand,64.29,None,None
+us10007p3h,1483280017810,206km N of Tobelo, Indonesia,35,None,None
+us10007p3f,1483279929200,219km NNE of Tobelo, Indonesia,35,None,None
+us10007p37,1483275842020,56km SSW of Karpathos, Greece,10,None,None
+us10007p2v,1483265647480,148km SSW of Panguna, Papua New Guinea,36.43,None,None
+us10007p1x,1483252549590,58km NW of Francisco Pizarro, Colombia,13.99,None,None
+us10007p01,1483229605270,124km NNW of Tobelo, Indonesia,73.84,None,None
+us10007nyq,1483221462020,27km ENE of San Isidro, Philippines,68.7,None,None
+us10007nxx,1483220643600,177km SSE of Taron, Papua New Guinea,58.81,None,None
+us10007nwc,1483196481920,79km WSW of Banda Aceh, Indonesia,55.63,None,None
+us10007nv4,1483168868630,246km NNW of Saumlaki, Indonesia,140.78,None,None
+us10007nuy,1483161680500,37km WSW of Kiska Volcano, Alaska,73.85,None,None
+us10007ty8,1483148512040,188km SSW of L'Esperance Rock, New Zealand,59.76,None,None
+us10007tr8,1483135480310,188km SSW of L'Esperance Rock, New Zealand,104.49,None,None
+us10007ntq,1483132114000,119km ESE of Yigo Mayor's Office, Guam,10,None,None
+us10007ntd,1483128507620,37km ESE of Namie, Japan,11.94,6,19
+us10007nt8,1483127321530,99km S of Taron, Papua New Guinea,27.23,None,None
+us10007nsi,1483118002430,79km ESE of Petropavlovsk-Kamchatskiy, Russia,56.61,3.1,2
+us10007ns3,1483112904520,7km N of Pocito, Argentina,106.6,2,1
+us10007nrx,1483103480780,159km SSW of L'Esperance Rock, New Zealand,10,None,None
+us10007nrl,1483102573690,141km NE of L'Esperance Rock, New Zealand,25.12,3.1,1
+us10007nqa,1483086293610,45km NNW of Naisano Dua, Indonesia,117.63,None,None
+us10007nq6,1483083287290,South of Panama,10,None,None
+us10007npz,1483081804690,141km NW of Kota Ternate, Indonesia,34.93,None,None
+us10007npe,1483077994560,18km WNW of Molibagu, Indonesia,214.78,None,None
+us10007npb,1483075257800,280km NW of Visokoi Island, South Georgia and the South Sandwich Islands,32.68,None,None
+us10007nnf,1483066696800,267km SSE of L'Esperance Rock, New Zealand,55.39,None,None
+us10007nn0,1483062802840,Izu Islands, Japan region,398.09,None,None
+us10007nl0,1483050619300,29km S of Tolotangga, Indonesia,79,7,174
+us10007nks,1483047019710,204km SSE of Isangel, Vanuatu,198.27,None,None
+us10007njw,1483032798490,98km S of Taron, Papua New Guinea,48.25,None,None
+us10007njd,1483018947270,170km S of L'Esperance Rock, New Zealand,42.8,None,None
+us10007ni1,1483000266770,107km NNE of Calama, Chile,119.03,None,None
+us10007ngm,1482978874420,42km SSW of Brooklyn, New Zealand,24.17,4.8,10
+us10007nfi,1482969114480,69km W of Puerto Quellon, Chile,15.64,None,None
+us10007nfe,1482967897100,55km SSW of Mapastepec, Mexico,61.33,2.2,1
+us10007neg,1482957744180,87km NNW of Lae, Papua New Guinea,114.91,2,1
+us10007nbg,1482935736050,122km S of Acajutla, El Salvador,10,1,1
+us10007nbd,1482935064770,52km NE of Wabag, Papua New Guinea,104.79,4.6,2
+us10007nb4,1482932774770,55km NNW of Iwo Jima, Japan,207.16,2.7,2
+us10007naq,1482929592730,7km WNW of Kitaibaraki, Japan,10,1,1
+us10007naf,1482928730920,18km NNE of Daigo, Japan,10,7.5,182
+nn00570744,1482916427243,26km SW of Hawthorne, Nevada,8.8,5.8,2296
+nn00570710,1482913332211,28km WSW of Hawthorne, Nevada,12.3,5.7,11559
+nn00570709,1482913080598,29km WSW of Hawthorne, Nevada,10.8,5.7,1830
+us10007n50,1482901505360,13km ENE of San Pablo, Colombia,141.51,3.6,4
+us10007n4g,1482893168840,69km E of Shikotan, Russia,55.97,None,None
+us10007n47,1482887213190,121km SSE of Putre, Chile,109,None,None
+us10007th5,1482883697320,120km WSW of Port-Vila, Vanuatu,10,None,None
+us10007t56,1482881839250,Mid-Indian Ridge,10,None,None
+us10007n3r,1482880856110,15km W of Nereju, Romania,97,5.6,1036
+us10007n3n,1482878287380,166km SSE of Taron, Papua New Guinea,24.93,None,None
+us10007n2l,1482867065580,16km SW of Gefyra, Greece,12.5,2.7,2
+us10007n23,1482861873510,182km S of Bristol Island, South Sandwich Islands,51.71,None,None
+us10007n1k,1482852328560,35km WSW of Namatanai, Papua New Guinea,10,None,None
+us10007n1g,1482851402980,153km S of Puerto El Triunfo, El Salvador,35,None,None
+us10007n0y,1482847644270,47km SW of Puerto Quellon, Chile,36.12,None,None
+us10007n0q,1482842486340,105km N of Minab, Iran,10,None,None
+us10007n0b,1482838724920,13km SE of Kaikoura, New Zealand,13.18,None,None
+us10007mzt,1482830788890,Kuril Islands,41.88,None,None
+us10007t4g,1482829180200,212km WNW of Neiafu, Tonga,35,None,None
+us10007mz5,1482815664920,34km SSW of Puerto El Triunfo, El Salvador,71.53,2,2
+us10007myr,1482805823890,104km WNW of Kirakira, Solomon Islands,41.51,2.7,1
+us10007mym,1482799513040,63km WSW of Puerto Quellon, Chile,23.46,2,1
+us10007myh,1482797853660,20km NW of Yongchuan, China,10,3.4,3
+us10007my6,1482788194160,144km ENE of Bitung, Indonesia,40.81,None,None
+us10007mxy,1482779270940,180km WNW of Panguna, Papua New Guinea,22.17,None,None
+us10007mxj,1482776676970,12km W of Meulaboh, Indonesia,76.97,None,None
+us10007mwx,1482770377800,205km SE of Sarangani, Philippines,35,None,None
+us10007mu1,1482734110860,West Chile Rise,10,None,None
+us10007mts,1482727718940,Central East Pacific Rise,10,None,None
+us10007t1v,1482722891500,95km NNW of Kirakira, Solomon Islands,51.25,None,None
+us10007mst,1482716520800,141km SSE of Taron, Papua New Guinea,10,None,None
+us10007msf,1482715414790,61km N of Claveria, Philippines,10,None,None
+us10007mse,1482714799080,14km NE of Ndoi Island, Fiji,594.22,None,None
+us10007ms9,1482714212710,75km WNW of Vallenar, Chile,31.55,None,None
+us10007ms5,1482713367020,109km NNW of Kirakira, Solomon Islands,35.05,None,None
+us10007t1m,1482710647630,Reykjanes Ridge,10,None,None
+us10007mrf,1482706473290,56km WSW of Puerto Quellon, Chile,5.71,None,None
+us10007mql,1482695562400,3km WNW of Moriya, Japan,56.66,3.8,24
+us10007mpw,1482687349410,167km WNW of Arawa, Papua New Guinea,117.11,None,None
+us10007qxz,1482683040860,33km WSW of Paredon, Mexico,86.04,None,None
+us10007mnb,1482676333310,80km WSW of Puerto Quellon, Chile,14.93,2,1
+us10007mn3,1482675747030,41km SW of Puerto Quellon, Chile,38,9.1,265
+us10007mmu,1482674493240,159km ENE of Iquique, Chile,103.32,3.6,3
+us10007mlt,1482652808350,48km ESE of Pondaguitan, Philippines,32.56,None,None
+us10007mlu,1482651701840,Kuril Islands,35,None,None
+us10007mlc,1482636684170,Kuril Islands,82.38,None,None
+us10007mlh,1482628007310,South of the Kermadec Islands,10,None,None
