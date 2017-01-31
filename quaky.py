@@ -70,7 +70,7 @@ class Quaky(object):
         datafile = open(filename, 'w')
         datafile.write("id,time,place,depth,intensity,dyfi\n")
         for i in range(self.event_count):
-            datafile.write("{0},{1},{2},{3},{4},{5}\n".format(self.event_id[i], self.event_time[i], self.event_place[i],
+            datafile.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(self.event_id[i], self.event_time[i], self.event_place[i],
                                                          self.event_depth[i], self.max_reported_intensity[i], self.dyfi_index[i]))
         datafile.close()
 

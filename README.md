@@ -1,4 +1,4 @@
 # quaky
 A wrapper for the USGS Earthquake API
 
-Currently in progress.
+Currently have only implemented a few functions for data logging, but may expand in the future.
