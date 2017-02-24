@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # A wrapper module for the USGS Earthquake API. At this point, the primary purpose is ETL for further data analysis.
 #Additional features may be added in the future. (c) Jared J. Gerschler 2017
 
